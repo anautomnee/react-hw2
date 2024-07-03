@@ -1,8 +1,8 @@
 function ShoppingList({ items }) {
     return (
         <ul>
-            {items.map(item => (
-                <li>{item}</li>
+            {items.map((item, ind) => (
+                <li key={ind}>{item}</li>
             ))}
         </ul>
     );

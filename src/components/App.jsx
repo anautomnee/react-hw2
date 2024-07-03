@@ -22,7 +22,7 @@ function App() {
       < ShoppingList items={shoppingListArr} />
       <h1>Task 3</h1>
       {orderInfo.map(order => (
-        < OrderStatus orderId={order.orderId} status={order.status}/>
+        < OrderStatus key={order.orderId} orderId={order.orderId} status={order.status}/>
       ))}
     </>
   );
