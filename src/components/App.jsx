@@ -2,7 +2,7 @@ import Greeting from "./Greeting";
 import ShoppingList from "./ShoppingList";
 import OrderStatus from "./OrderStatus";
 
-const shoppingListArr = ["milk", "bread", "eggs"];
+const shoppingListArr = [];
 const orderInfo = [{
   orderId: 123, 
   status: "Processing"}, {
